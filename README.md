@@ -53,6 +53,10 @@ const recall = await dshGoRecall.prepare(this.loopCtx, this, position, claimed, 
 
 ---
 
+## 文档
+
+完整上手流程（安装、备份、打补丁、排错、回滚）见 **[docs/GETTING-STARTED.md](./docs/GETTING-STARTED.md)**。
+
 ## 实测结果
 
 DSH `0.2.2-rc.1`：
