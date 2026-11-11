@@ -1,0 +1,22 @@
+node_modules/
+*.tgz
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+.scratch/
+scripts/tmp-*.mjs
+scripts/test-*.mjs
+
+# 提示词原文只在本地维护
+lib/default-prompt-inject.md
+lib/default-prompt-inject.zh.md
+lib/default-prompt-inject.en.md
+default-prompt-inject.md
+
+# 官方安装包 / 解包目录
+/deepseek-harness-*.exe
+/official-harness-unpacked/
+*.asar
+*.bak
